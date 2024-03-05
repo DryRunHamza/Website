@@ -1,0 +1,105 @@
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    /* background-image: url(../img/yellow.jpg); */
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    overflow: hidden;
+}
+nav{
+    width: 100%;
+    height: 12vh;
+    background-color:rgb(111, 3, 3);
+    display: flex;
+    position: absolute;
+    align-items: center;
+    justify-content: space-around;
+
+}
+.main .logo{
+    font-size: 35px;
+    font-weight: bolder;
+}
+a{
+    color: black;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+.menu ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 0 12px;
+}
+.menu ul li a{
+    font-size: 20px;
+    transition: all 0.5s ease;
+}
+.menu ul li a:hover{
+    color: white;
+}
+.btn{
+    padding: 20px 25px;
+    background-color:rgb(111, 3, 3);
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    color:#ffffff;
+    border: none;
+    outline: none;
+    border-radius: 25px;
+    transition: all 0.5s ease;
+}
+.btn:hover{
+    background-color:rgb(255, 255, 255);
+    color: white;
+}
+.main-text{
+    position: absolute;
+    top: 40%;
+    left: 2%;
+    color: white;
+    transform: translateX(50%);
+    text-align: center;
+    font-size: 2rem;
+    margin: 5px 0 15px 0;
+    text-transform: capitalize;
+}
+.main-text h3{
+    font-size: 2rem;
+    margin: 10px 0 8px 0;
+    text-transform: capitalize;
+}
+span{
+    color: white;
+}
+.button{
+    position: absolute;
+    top: 60%;
+    right: 50%;
+    background-color: rgb(111, 3, 3);
+    padding: 20px;
+    font-size: larger;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-radius: 50px;
+    border-style:none;
+}
+.button:hover{
+    font-weight: bolder;
+    background-color: rgb(111, 3, 3);
+    transition: all 0.5s ease;
+    color: black;
+}
+.imgg{
+    height: 40px;
+    position:absolute;
+    left: 20px;
+}
+.vid{
+    height: 100%;
+    width: 100%;
+    margin-top: 50px;
+}
